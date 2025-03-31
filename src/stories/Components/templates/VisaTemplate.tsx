@@ -31,8 +31,8 @@
 // export default TourOrderTemplate;
 
 import bgImg from "../../assets/home-cover-2 1.png";
-import Heading from "../atoms/Heading";
-import Icon from "../atoms/Icon";
+import Heading from "../atoms/Heading/Heading";
+import Icon from "../atoms/Icon/Icon";
 import tubuddLogo from "../../assets/Frame 405.svg";
 import VisaOrganisms from "../organisms/VisaOrganisms";
 

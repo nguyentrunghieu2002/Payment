@@ -1,4 +1,4 @@
-import "./Text.css";
+import "../Text/Text.css";
 
 interface infoProps {
   text: string;

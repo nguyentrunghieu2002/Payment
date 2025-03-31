@@ -1,7 +1,7 @@
 import { Meta, StoryFn } from "@storybook/react";
-import Button from "./Components/atoms/Button";
-import PaypalLogo from "./assets/Logo.png";
-import PaymeLogo from "./assets/payme_logo1.png";
+import Button from "./Button";
+import PaypalLogo from "../../../assets/Logo.png";
+import PaymeLogo from "../../../assets/payme_logo1.png";
 
 export default {
   title: "Atoms/Button",

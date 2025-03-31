@@ -1,6 +1,6 @@
 import Header from "../../atoms/Header/Header";
 import Buddy from "../../../assets/Vector2.svg";
-import Info from "../../atoms/Info";
+import Info from "../../atoms/Info/Info";
 import { OrderData } from "../../Type/OrderType";
 
 interface BuddyMoleculesProps {

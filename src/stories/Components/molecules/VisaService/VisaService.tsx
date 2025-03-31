@@ -1,6 +1,6 @@
 import Header from "../../atoms/Header/Header";
 import Customer from "../../../assets/Vector2.svg";
-import Info from "../../atoms/Info";
+import Info from "../../atoms/Info/Info";
 
 const VisaService = () => {
   const headerData = {
@@ -20,7 +20,6 @@ const VisaService = () => {
       <div
         style={{
           width: "366px",
-          borderBottom: "1px solid #E0E0E0",
           display: "flex",
           gap: "8px",
           flexDirection: "column",

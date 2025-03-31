@@ -1,4 +1,4 @@
-import Info from "../../atoms/Info";
+import Info from "../../atoms/Info/Info";
 import { OrderData } from "../../Type/OrderType";
 
 interface OrderSummary {

@@ -1,5 +1,5 @@
-import Icon from "../Icon";
-import Text from "../Text";
+import Icon from "../Icon/Icon";
+import Text from "../Text/Text";
 import styled from "styled-components";
 import "./Header.css";
 

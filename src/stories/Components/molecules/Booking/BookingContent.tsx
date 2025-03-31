@@ -1,4 +1,4 @@
-import Text from "../../atoms/Text";
+import Text from "../../atoms/Text/Text";
 
 interface BookingContentProps {
   size: string;

@@ -1,5 +1,5 @@
-import Heading from "../atoms/Heading";
-import Icon from "../atoms/Icon";
+import Heading from "../atoms/Heading/Heading";
+import Icon from "../atoms/Icon/Icon";
 import Tubudd from "../../assets/Frame 405.svg";
 
 const Title = () => {

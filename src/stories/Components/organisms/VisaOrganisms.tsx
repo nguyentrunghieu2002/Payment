@@ -1,4 +1,4 @@
-import Button from "../atoms/Button";
+import Button from "../atoms/Button/Button";
 import Header from "../atoms/Header/Header";
 import CustomerVisa from "../molecules/CustomerVisa/CustomerVisa";
 import VisaOrder from "../molecules/VisaOrder/VisaOrder";

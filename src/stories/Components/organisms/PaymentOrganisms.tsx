@@ -1,4 +1,4 @@
-import Button from "../atoms/Button";
+import Button from "../atoms/Button/Button";
 import Header from "../atoms/Header/Header";
 import BookingContent from "../molecules/Booking/BookingContent";
 import BuddyMolecules from "../molecules/BuddyModecules/BuddyMolecules";

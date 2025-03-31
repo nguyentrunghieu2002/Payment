@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import Info from "./Components/atoms/Info";
+import Info from "./Info";
 
 const meta: Meta<typeof Info> = {
   title: "Atoms/Info",

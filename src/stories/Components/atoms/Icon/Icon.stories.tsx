@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import Icon from "./Components/atoms/Icon";
-import tubuddLogo from "./assets/Frame 405.svg";
-import Customer from "./assets/Vector.svg";
-import Buddy from "./assets/Vector2.svg";
+import Icon from "./Icon";
+import tubuddLogo from "../../../assets/Frame 405.svg";
+import Customer from "../../../assets/Vector.svg";
+import Buddy from "../../../assets/Vector2.svg";
 
 const meta: Meta<typeof Icon> = {
   title: "Atoms/Icon",

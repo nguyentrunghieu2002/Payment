@@ -1,4 +1,4 @@
-import Info from "../../atoms/Info";
+import Info from "../../atoms/Info/Info";
 
 const VisaOrder = () => {
   return (
@@ -6,7 +6,6 @@ const VisaOrder = () => {
       <div
         style={{
           width: "366px",
-          borderBottom: "1px solid #E0E0E0",
           display: "flex",
           gap: "8px",
           flexDirection: "column",

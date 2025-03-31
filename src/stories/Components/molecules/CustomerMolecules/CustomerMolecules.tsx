@@ -1,6 +1,6 @@
 import Header from "../../atoms/Header/Header";
 import Customer from "../../../assets/Vector.svg";
-import Info from "../../atoms/Info";
+import Info from "../../atoms/Info/Info";
 import { OrderData } from "../../Type/OrderType";
 
 interface CustomerMoleculesProps {
