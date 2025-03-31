@@ -1,7 +1,7 @@
 interface iconProps {
   logoIcon: string;
-  iconWidth: string;
-  iconHeight: string;
+  iconWidth?: string;
+  iconHeight?: string;
 }
 
 const Icon = ({ logoIcon, iconWidth, iconHeight }: iconProps) => {

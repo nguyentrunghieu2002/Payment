@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import BookingContent from "./Components/molecules/BookingContent";
+import BookingContent from "./BookingContent";
 
 const meta: Meta<typeof BookingContent> = {
   title: "Molecules/BookingContent",
@@ -11,7 +11,7 @@ export default meta;
 type Story = StoryObj<typeof BookingContent>;
 
 export const FromDate: Story = {
-  name: "From Date",
+  name: "Booking Content Half",
   args: {
     size: "12px",
     weight: "400",
@@ -25,17 +25,17 @@ export const FromDate: Story = {
   },
 };
 
-export const ToDate: Story = {
-  name: "To Date",
-  args: {
-    ...FromDate.args,
-    textHeader: "To Date",
-    textValue: "24 OCT 2024",
-  },
-};
+// export const ToDate: Story = {
+//   name: "To Date",
+//   args: {
+//     ...FromDate.args,
+//     textHeader: "To Date",
+//     textValue: "24 OCT 2024",
+//   },
+// };
 
 export const Duration: Story = {
-  name: "Duration",
+  name: "Booking Content Full",
   args: {
     ...FromDate.args,
     parentHeight: "44px",
@@ -47,15 +47,15 @@ export const Duration: Story = {
   },
 };
 
-export const Location: Story = {
-  name: "Location",
-  args: {
-    ...Duration.args,
-    parentHeight: "44px",
-    parentWidth: "334px",
-    heightDiv: "60px",
-    widthDiv: "366px",
-    textHeader: "Location",
-    textValue: "HANOI, VIET NAM",
-  },
-};
+// export const Location: Story = {
+//   name: "Location",
+//   args: {
+//     ...Duration.args,
+//     parentHeight: "44px",
+//     parentWidth: "334px",
+//     heightDiv: "60px",
+//     widthDiv: "366px",
+//     textHeader: "Location",
+//     textValue: "HANOI, VIET NAM",
+//   },
+// };

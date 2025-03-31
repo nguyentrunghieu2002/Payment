@@ -2,7 +2,7 @@ import "./Text.css";
 
 interface infoProps {
   text: string;
-  textValue: string;
+  textValue?: string | number;
   color?: string;
   fontWeight?: string;
 }

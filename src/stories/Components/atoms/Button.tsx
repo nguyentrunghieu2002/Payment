@@ -3,7 +3,7 @@ import React from "react";
 interface ButtonProps {
   children: React.ReactNode;
   onClick?: () => void;
-  variant?: "primary" | "secondary";
+  variant?: string;
   img: string;
   color: string;
   logoWidth: string;
@@ -29,6 +29,7 @@ const Button: React.FC<ButtonProps> = ({
         justifyContent: "center",
         backgroundColor: color,
         gap: "4px",
+        border: "none",
       }}
     >
       <div>

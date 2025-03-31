@@ -1,4 +1,4 @@
-import Text from "../atoms/Text";
+import Text from "../../atoms/Text";
 
 interface BookingContentProps {
   size: string;
@@ -7,7 +7,7 @@ interface BookingContentProps {
   heightDiv: string;
   widthDiv: string;
   textHeader: string;
-  textValue: string;
+  textValue?: string;
   parentHeight: string;
   parentWidth: string;
 }
@@ -49,13 +49,15 @@ const BookingContent = ({
           text={textHeader}
           weight={weight}
         />
-        <Text
-          color="#273D52"
-          lineHeight={lineHeight}
-          size={size}
-          text={textValue}
-          weight={weight}
-        />
+        {textValue && (
+          <Text
+            color="#273D52"
+            lineHeight={lineHeight}
+            size={size}
+            text={textValue}
+            weight={weight}
+          />
+        )}
       </div>
     </div>
   );
